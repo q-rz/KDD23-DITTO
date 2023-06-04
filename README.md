@@ -48,6 +48,6 @@ cd scripts
 
 ## Other baselines
 
-- [BRITS \(Cao et al., 2018\)](https://github.com/caow13/BRITS)
-- [GRIN \(Cini et al., 2022\)](https://github.com/Graph-Machine-Learning-Group/grin)
-- [SPIN \(Marisca et al., 2022\)](https://github.com/Graph-Machine-Learning-Group/spin)
+- BRITS \(Cao et al., 2018\): [code](https://github.com/caow13/BRITS)
+- GRIN \(Cini et al., 2022\): [code](https://github.com/Graph-Machine-Learning-Group/grin)
+- SPIN \(Marisca et al., 2022\): [code](https://github.com/Graph-Machine-Learning-Group/spin)
