@@ -38,7 +38,7 @@ cd scripts
 ```
 
 - The `{method}` is one of `ditto` (ours) / `dhrec` / `cri` / `gcn` / `gin` / `brits` / `grin` / `spin`.
-  - The original code for DHREC is for SEIRS and is rather complicated, so we provide our simplified implementation for SI/SIR here.
+  - The original code for DHREC is specially for SEIRS and is rather complicated, so we provide our simplified implementation for SI/SIR here.
   - The CRI paper did not publish their source code, so we implemented CRI according to their paper.
   - The implementations of GCN and GIN are from PyTorch Geometric.
 
