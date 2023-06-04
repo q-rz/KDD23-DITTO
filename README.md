@@ -33,11 +33,12 @@ Our code was tested under the following dependencies:
 To reproduce our results:
 
 ```sh
+cd scripts
 ./{method}-{dataset}.sh
 ```
 
-- `{method}`: `ditto` (ours) / `gcn` / `gin` / `brits` / `grin` / `spin`
-- `{dataset}`: `ba-si` / `er-si` / `prost-si` / `oregon2-si` / `farmers-si` / `pol-si` / `ba-sir` / `er-sir` / `oregon2-sir` / `prost-sir` / `covid-sir` / `heb-sir`
+- `{method}`: `ditto` (ours) / `dhrec` / `cri` / `gcn` / `gin` / `brits` / `grin` / `spin`
+- `{dataset}`: `ba-si` / `er-si` / `oregon2-si` / `prost-si` / `farmers-si` / `pol-si` / `ba-sir` / `er-sir` / `oregon2-sir` / `prost-sir` / `covid-sir` / `heb-sir`
 
 **Note:** Some dataset names here slightly differ from those in the paper.
 
