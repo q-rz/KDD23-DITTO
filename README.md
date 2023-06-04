@@ -37,15 +37,15 @@ cd scripts
 ./{method}-{dataset}.sh
 ```
 
-- The `{method}` is one of `ditto` (ours) / `dhrec` / `cri` / `gcn` / `gin` / `brits` / `grin` / `spin`.
+- The `{method}` can be `ditto` (ours) / `dhrec` / `cri` / `gcn` / `gin` / `brits` / `grin` / `spin`.
   - The original code for DHREC is specially for SEIRS and is rather complicated, so we provide our simplified implementation for SI/SIR here.
   - The CRI paper did not publish their source code, so we implemented CRI according to their paper.
   - The implementations of GCN and GIN are from PyTorch Geometric.
 
-- The `{dataset}` is one of `ba-si` / `er-si` / `oregon2-si` / `prost-si` / `farmers-si` / `pol-si` / `ba-sir` / `er-sir` / `oregon2-sir` / `prost-sir` / `covid-sir` / `heb-sir`.
+- The `{dataset}` can be `ba-si` / `er-si` / `oregon2-si` / `prost-si` / `farmers-si` / `pol-si` / `ba-sir` / `er-sir` / `oregon2-sir` / `prost-sir` / `covid-sir` / `heb-sir`.
   - Here `farmers-si` refers to the BrFarmers dataset in our paper.
   - Here `heb-sir` refers to the Hebrew dataset in our paper.
-  - **Note:** As is explained in Section 5.4, {`gcn`, `gin`, `brits`, `grin`, `spin`} support only {`farmers-si`, `pol-si`, `covid-sir`, `heb-sir`}. Due to OOM, {`brits`, `spin`} do not support {`pol-si`}.
+  - **Note:** As is explained in Section 5.4, {`gcn`, `gin`, `brits`, `grin`, `spin`} were evaluated only on {`farmers-si`, `pol-si`, `covid-sir`, `heb-sir`}. Due to OOM, {`brits`, `spin`} do not support `pol-si`.
 
 ## Resources
 
