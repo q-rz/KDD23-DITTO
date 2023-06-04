@@ -50,7 +50,7 @@ cd scripts
 ## Baselines
 
 - DHREC \(Sefer et al., 2014\): [paper](http://www.cs.cmu.edu/~ckingsf/software/dhrec/icdm2014.pdf), [code](http://www.cs.cmu.edu/~ckingsf/software/dhrec/code.html)
-- CRI \(Chen et al., 2016\): [paper](https://ieeexplore.ieee.org/ielaam/6488902/7387807/7395374-aam.pdf)
+- CRI \(Chen et al., 2016\): [paper](https://ieeexplore.ieee.org/ielaam/6488902/7387807/7395374-aam.pdf) \(no public code\)
 - BRITS \(Cao et al., 2018\): [paper](https://proceedings.neurips.cc/paper/2018/file/734e6bfcd358e25ac1db0a4241b95651-Paper.pdf), [code](https://github.com/caow13/BRITS)
 - GRIN \(Cini et al., 2022\): [paper](https://openreview.net/pdf?id=kOu3-S3wJ7), [code](https://github.com/Graph-Machine-Learning-Group/grin)
 - SPIN \(Marisca et al., 2022\): [paper](https://arxiv.org/pdf/2205.13479.pdf), [code](https://github.com/Graph-Machine-Learning-Group/spin)
