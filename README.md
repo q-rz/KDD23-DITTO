@@ -37,13 +37,14 @@ cd scripts
 ./{method}-{dataset}.sh
 ```
 
-- The `{dataset}` is one of `ba-si` / `er-si` / `oregon2-si` / `prost-si` / `farmers-si` / `pol-si` / `ba-sir` / `er-sir` / `oregon2-sir` / `prost-sir` / `covid-sir` / `heb-sir`.
 - The `{method}` is one of `ditto` (ours) / `dhrec` / `cri` / `gcn` / `gin`.
   - The original code for DHREC is for SEIRS and is very complicated, so we provide our simplified implementation for SI/SIR here.
   - The CRI paper did not publish their source code, so we implemented CRI according to their paper.
-  - We use PyTorch Geometric to implement GCN and GIN.
+  - The implementations of GCN and GIN are from PyTorch Geometric.
 
-**Note:** Some dataset names here slightly differ from those in the paper.
+- The `{dataset}` is one of `ba-si` / `er-si` / `oregon2-si` / `prost-si` / `farmers-si` / `pol-si` / `ba-sir` / `er-sir` / `oregon2-sir` / `prost-sir` / `covid-sir` / `heb-sir`.
+  - Here `farmers-si` refers to the BrFarmers dataset in our paper.
+  - Here `heb-sir` refers to the Hebrew dataset in our paper.
 
 ## Other baselines
 
