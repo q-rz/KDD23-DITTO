@@ -37,15 +37,15 @@ cd scripts
 ./{method}-{dataset}.sh {device}
 ```
 
-- The `{method}` can be `ditto` (ours) / `dhrec` / `cri` / `gcn` / `gin`.
+- `{method}`: `ditto` (ours) / `dhrec` / `cri` / `gcn` / `gin`.
   - The original code for DHREC is specially for SEIRS and is rather complicated, so we provide our simplified implementation of DHREC-PCDSVC for SI/SIR here.
   - The CRI paper did not publish their source code, so we implemented CRI according to their paper.
   - The implementations of GCN and GIN are from PyTorch Geometric.
-- The `{dataset}` can be `ba-si` / `er-si` / `oregon2-si` / `prost-si` / `farmers-si` / `pol-si` / `ba-sir` / `er-sir` / `oregon2-sir` / `prost-sir` / `covid-sir` / `heb-sir`.
+- `{dataset}`: `ba-si` / `er-si` / `oregon2-si` / `prost-si` / `farmers-si` / `pol-si` / `ba-sir` / `er-sir` / `oregon2-sir` / `prost-sir` / `covid-sir` / `heb-sir`.
   - Here `farmers-si` refers to the BrFarmers dataset in our paper.
   - Here `heb-sir` refers to the Hebrew dataset in our paper.
   - **Note:** As is explained in Section 5.4, {`gcn`, `gin`} were evaluated only on {`farmers-si`, `pol-si`, `covid-sir`, `heb-sir`}.
-- The `{device}` is the device for PyTorch.
+- `{device}`: the device for PyTorch.
 
 ## Other baselines
 
