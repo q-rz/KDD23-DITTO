@@ -37,7 +37,7 @@ cd scripts
 ./{method}-{dataset}.sh
 ```
 
-- The `{method}` is one of `ditto` (ours) / `dhrec` / `cri` / `gcn` / `gin`.
+- The `{method}` is one of `ditto` (ours) / `dhrec` / `cri` / `gcn` / `gin` / `brits` / `grin` / `spin`.
   - The original code for DHREC is for SEIRS and is rather complicated, so we provide our simplified implementation for SI/SIR here.
   - The CRI paper did not publish their source code, so we implemented CRI according to their paper.
   - The implementations of GCN and GIN are from PyTorch Geometric.
@@ -45,8 +45,9 @@ cd scripts
 - The `{dataset}` is one of `ba-si` / `er-si` / `oregon2-si` / `prost-si` / `farmers-si` / `pol-si` / `ba-sir` / `er-sir` / `oregon2-sir` / `prost-sir` / `covid-sir` / `heb-sir`.
   - Here `farmers-si` refers to the BrFarmers dataset in our paper.
   - Here `heb-sir` refers to the Hebrew dataset in our paper.
+  - **Note:** As is explained in Section 5.4, {`gcn`, `gin`, `brits`, `grin`, `spin`} support only {`farmers-si`, `pol-si`, `covid-sir`, `heb-sir`}. Due to OOM, {`brits`, `spin`} do not support {`pol-si`}.
 
-## Other baselines
+## Resources
 
 - BRITS \(Cao et al., 2018\): [code](https://github.com/caow13/BRITS)
 - GRIN \(Cini et al., 2022\): [code](https://github.com/Graph-Machine-Learning-Group/grin)
