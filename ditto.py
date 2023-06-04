@@ -25,7 +25,6 @@ def get_args():
     parser.add_argument('--t_steps', type = int, help = 'MCMC steps')
     parser.add_argument('--t_keep', type = float, help = 'moving average in MCMC')
     args = parser.parse_args()
-    args = Dict(args)
     return args
 
 class QNet(nn.Module):

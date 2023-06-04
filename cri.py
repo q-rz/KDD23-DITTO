@@ -9,7 +9,6 @@ def get_args():
     parser.add_argument('--output', type = str, help = 'output file name')
     parser.add_argument('--device', type = torch.device, help = 'torch device')
     args = parser.parse_args()
-    args = Dict(args)
     return args
 
 def static_vars(**kwargs):

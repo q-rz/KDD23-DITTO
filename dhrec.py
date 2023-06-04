@@ -13,7 +13,6 @@ def get_args():
     parser.add_argument('--b_steps', type = int, help = 'optimization steps in diffusion parameter estimation')
     parser.add_argument('--b_lr', type = float, help = 'learning rate in diffusion parameter estimation')
     args = parser.parse_args()
-    args = Dict(args)
     return args
 
 def pcdsvc_greedy(bpar, G, y):

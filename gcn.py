@@ -19,7 +19,6 @@ def get_args():
     parser.add_argument('--layers', type = int, help = 'number of layers in GCN')
     parser.add_argument('--dropout', type = float, help = 'dropout rate in GCN')
     args = parser.parse_args()
-    args = Dict(args)
     return args
 
 def gcn_run(data):
