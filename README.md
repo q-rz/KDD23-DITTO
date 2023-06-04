@@ -1,6 +1,4 @@
-# Reconstructing graph diffusion history from a single snapshot
-
-Official code for [the KDD 2023 paper](https://doi.org/10.1145/3580305.3599488).
+# Reconstructing graph diffusion history from a single snapshot (KDD 2023)
 
 If you use our code, please cite our paper:
 
@@ -32,4 +30,17 @@ Our code was tested under the following dependencies:
 
 ## Usage
 
-TODO
+To reproduce our results:
+
+```sh
+./{method}-{dataset}.sh
+```
+
+- `{method}`: `ditto` (ours) / `gcn` / `gin` / `brits` / `grin` / `spin`
+- `{dataset}`: `ba-si` / `er-si` / `prost-si` / `oregon2-si` / `farmers-si` / `pol-si` / `ba-sir` / `er-sir` / `oregon2-sir` / `prost-sir` / `covid-sir` / `heb-sir`
+
+## Baselines
+
+- [BRITS \(Cao et al., 2018\)](https://github.com/caow13/BRITS)
+- [GRIN \(Cini et al., 2022\)](https://github.com/Graph-Machine-Learning-Group/grin)
+- [SPIN \(Marisca et al., 2022\)](https://github.com/Graph-Machine-Learning-Group/spin)
