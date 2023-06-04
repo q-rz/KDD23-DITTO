@@ -3,7 +3,7 @@ cd .. && python3 ./ditto.py \
     --seed 123456789 \
     --data_dir input \
     --output output/ditto-pol-si.pt \
-    --device cuda:0 \
+    --device $1 \
     --b_pI0 1e-6 \
     --b_pR0 1e-6 \
     --b_steps 500 \

@@ -2,7 +2,7 @@ cd .. && python3 ./gcn.py \
     --dataset covid-sir \
     --seed 123456789 \
     --data_dir input \
-    --device cuda:0 \
+    --device $1 \
     --output output/gcn-covid-sir.pt \
     --b_pI0 0.001 \
     --b_pR0 0.001 \
