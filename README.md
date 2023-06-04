@@ -16,12 +16,10 @@ If you use our code, please cite our paper:
 }
 ```
 
-## Environment
+## Dependencies
 
-Our code was tested under the following environment:
+Our code was tested under the following dependencies:
 
-- Intel Xeon CPU @ 2.20GHz
-- NVIDIA Tesla P100 16GB GPU
 - CUDA 11.4
 - `torch==1.7.0`
 - `class-resolver==0.3.10`
