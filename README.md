@@ -39,6 +39,8 @@ To reproduce our results:
 - `{method}`: `ditto` (ours) / `gcn` / `gin` / `brits` / `grin` / `spin`
 - `{dataset}`: `ba-si` / `er-si` / `prost-si` / `oregon2-si` / `farmers-si` / `pol-si` / `ba-sir` / `er-sir` / `oregon2-sir` / `prost-sir` / `covid-sir` / `heb-sir`
 
+**Note:** Some dataset names slightly differ from those in the paper.
+
 ## Baselines
 
 - [BRITS \(Cao et al., 2018\)](https://github.com/caow13/BRITS)
