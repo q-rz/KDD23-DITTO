@@ -1,6 +1,6 @@
 # Reconstructing graph diffusion history from a single snapshot \(KDD 2023\)
 
-If you find our work useful, please consider citing [our paper](https://doi.org/10.1145/3580305.3599488):
+[![Our KDD paper](https://img.shields.io/badge/2023-KDD-blue)]([https://openreview.net/forum?id=9u05zr0nhx](https://doi.org/10.1145/3580305.3599488)) [![Our paper on arXiv](https://img.shields.io/badge/2306.00488-arXiv-B31B1B.svg)](https://arxiv.org/abs/2306.00488)
 
 ```bibtex
 @inproceedings{qiu2023ditto,
