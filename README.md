@@ -14,6 +14,8 @@
 }
 ```
 
+![Illustration](https://github.com/q-rz/KDD23-DITTO/raw/main/dash-illus.svg)
+
 ## Dependencies
 
 Our code was tested under the following dependencies:
