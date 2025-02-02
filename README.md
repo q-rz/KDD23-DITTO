@@ -7,10 +7,7 @@
   title={Reconstructing graph diffusion history from a single snapshot},
   author={Ruizhong Qiu and Dingsu Wang and Lei Ying and {H. Vincent} Poor and Yifang Zhang and Hanghang Tong},
   booktitle={Proceedings of the 29th {ACM} {SIGKDD} Conference on Knowledge Discovery and Data Mining},
-  year={2023},
-  organization={ACM},
-  address={Long Beach, CA, USA},
-  doi={10.1145/3580305.3599488}
+  year={2023}
 }
 ```
 
